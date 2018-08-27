@@ -1,0 +1,41 @@
+[{
+    "id": 1,
+    "name": "Bill Gates",
+    "image": "../images/billg.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Donald Trump",
+    "image": "../images/donaldt.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Jay-Z",
+    "image": "../images/jayz.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Elon Musk",
+    "image": "../images/elonm.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Jack Ma",
+    "image": "../images/jackm.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Jeff Bezos",
+    "image": "../images/jeffb.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Mark Zuckerberg",
+    "image": "../images/markz.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Warren Buffett",
+    "image": "../images/warrenb.jpg"
+  }
+]
