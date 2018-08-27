@@ -45,5 +45,30 @@
     "name": "Warren Buffett",
     "image": "../images/warrenb.jpg",
     "count": 0
+  },
+  {
+    "id": 9,
+    "name": "Tim Cook",
+    "image": "../images/timc.jpg",
+    "count": 0
+  },
+  {
+    "id": 10,
+    "name": "Sundar Pichai",
+    "image": "../images/sundarp.jpg",
+    "count": 0
+  },
+  {
+    "id": 11,
+    "name": "Satya Nadella",
+    "image": "../images/satyan.jpg",
+    "count": 0
+  },
+  {
+    "id": 12,
+    "name": "Travis Kalanick",
+    "image": "../images/travisk.jpg",
+    "count": 0
   }
+ 
 ]
