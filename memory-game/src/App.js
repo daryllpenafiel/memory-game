@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import People from "./components/PeopleCard";
 import Wrapper from "./components/Wrapper";
-import Instructions from "./components/Instructions";
 import Title from "./components/Title";
 import people from "./people.json";
 // import "./App.js";
@@ -59,7 +58,6 @@ class App extends Component {
         return (
           <Wrapper>
             <Title score={this.state.score} highscore={this.state.highscore}>Clicky Game</Title>
-            <Instructions />
             {this.state.people.map(person => (
               <People
                 clickPerson={this.clickPerson}
