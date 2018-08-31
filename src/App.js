@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import People from "./components/PeopleCard";
 import Wrapper from "./components/Wrapper";
+import Instructions from "./components/Instructions";
 import Title from "./components/Title";
 import people from "./people.json";
 // import "./App.js";
@@ -46,18 +47,12 @@ class App extends Component {
     });
   }
 
-    // clickPerson = id => {
-    //     // Filter this.state.friends for friends with an id not equal to the id being removed
-    //     const people = this.state.people.filter(person => person.id !== id);
-    //     // Set this.state.friends equal to the new friends array
-    //     this.setState({ people });
-    //   };
-    
       // Map over this.state.friends and render a FriendCard component for each friend object
       render() {
         return (
           <Wrapper>
             <Title score={this.state.score} highscore={this.state.highscore}>Clicky Game</Title>
+            <Instructions />
             {this.state.people.map(person => (
               <People
                 clickPerson={this.clickPerson}
