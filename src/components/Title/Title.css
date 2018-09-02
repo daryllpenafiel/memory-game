@@ -1,7 +1,15 @@
 .title {
+  font-family: 'Monoton', cursive;
   width: 100%;
   text-align: center;
+  font-size: 4rem;
+  color: white;
+  background-color: black;
+  padding-top: 10px;
+  opacity: 0.9;
+}
+
+.scores {
+  font-family: 'Bangers', cursive;
   font-size: 3rem;
-  color: #2A77AE;
-  margin-bottom: 20px;
 }

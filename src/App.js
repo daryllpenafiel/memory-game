@@ -51,7 +51,7 @@ class App extends Component {
       render() {
         return (
           <Wrapper>
-            <Title score={this.state.score} highscore={this.state.highscore}>Clicky Game</Title>
+            <Title score={this.state.score} highscore={this.state.highscore}>MEMORY GAME</Title>
             <Instructions />
             {this.state.people.map(person => (
               <People
